@@ -1,0 +1,17 @@
+réponse question cours
+
+q1) programme corrigé :
+
+int main(){
+   int j;
+   float resistance[TAILLEMAX] = {0.1, 1, 0, 10, 1000};
+   float tension = 10;
+   for(j = 0 ; j < TAILLEMAX ; j++)
+  {
+  printf("intensite : %f / %f = %f \n",tension, resistance[j], tension/resistance[j]);
+  }
+
+  return 0;
+}
+
+q2) on a pour résistance = 0 l'intensité qui vaut "inf"

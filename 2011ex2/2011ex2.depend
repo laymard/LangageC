@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1421507672 source:/home/laurent/Documents/3INFO/LangageC/annales/2011ex2/main.c
+	<stdio.h>
+	<stdlib.h>
+
