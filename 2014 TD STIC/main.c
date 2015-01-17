@@ -33,20 +33,13 @@ int main()
     int j=0;
 
     enregistreIndividus(donnees,N,"sauvegarde.txt");
-
     res=compareIndividus(i1,i2);
     fprintf(stdout,"test %s %d\n",i1.prenom,i1.anneeD);
-    printf("test 2 %d\n",donnees[0].anneeD);
-
-
     printf("Comparation de i1 et 12 : %d\n", res);
     lireIndividus(donnees2,"sauvegarde.txt");
     for(j=0;j<3;j++){
         printf("Indi %d  : %s %s %d %d\n",j,donnees2[j].prenom,donnees2[j].nom,donnees2[j].anneeN,donnees2[j].anneeD);
     }
-
-
-
     return 0;
 }
 
